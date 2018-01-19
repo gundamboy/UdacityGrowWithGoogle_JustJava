@@ -1,3 +1,62 @@
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Title for the application. [CHAR LIMIT=12] -->
     <string name="app_name">Just Java</string>
+
+    <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=20] -->
+    <string name="name">Name</string>
+
+    <!-- Quantity header text [CHAR LIMIT=20] -->
+    <string name="quantity">Quantity</string>
+
+    <!-- The initial quantity of coffees [CHAR LIMIT=20] -->
+    <string name="initial_quantity_value">1</string>
+
+    <!-- Toppings header text [CHAR LIMIT=20] -->
+    <string name="toppings">Toppings</string>
+
+    <!-- Whipped cream option text [CHAR LIMIT=20] -->
+    <string name="whipped_cream">Whipped Cream</string>
+
+    <!-- Chocolate option text [CHAR LIMIT=20] -->
+    <string name="chocolate">Chocolate</string>
+
+    <!-- total text [CHAR LIMIT=20] -->
+    <string name="total">Total $0</string>
+
+    <!-- Order header text [CHAR LIMIT=20] -->
+    <string name="order">Order</string>
+
+    <!-- Error if there is no name [CHAR LIMIT=30] -->
+    <string name="name_error">We need a name for you order</string>
+
+    <!-- Error if too many coffees are ordered [CHAR LIMIT=200] -->
+    <string name="too_few_error">You have to order at least 1 coffee to get your caffeine intake!</string>
+
+    <!-- Error if too few coffees are ordered [CHAR LIMIT=200] -->
+    <string name="too_many_error">You cannot order that much caffeine, you will die!</string>
+
+    <!-- Name in the order summary [CHAR LIMIT=50] -->
+    <string name="order_summary_name">Name: <xliff:g id="name" example="Amy">%s</xliff:g></string>
+
+    <!-- Whipped cream order summary [CHAR LIMIT=50] -->
+    <string name="order_summary_whipped_cream">Add Whipped Cream: <xliff:g id="addWhippedCream" example="true">%b</xliff:g></string>
+
+    <!-- Chocolate order summary [CHAR LIMIT=20] -->
+    <string name="order_summary_chocolate">Add Chocolate: <xliff:g id="addChocolate" example="true">%b</xliff:g></string>
+
+    <!-- Quantity order summary [CHAR LIMIT=20] -->
+    <string name="order_summary_quantity">Quantity: <xliff:g id="quantity" example="2">%d</xliff:g></string>
+
+    <!-- Price of the order [CHAR LIMIT=20] -->
+    <string name="order_summary_price">Total: <xliff:g id="price" example="Amy">%s</xliff:g></string>
+
+    <!-- Thank you message [CHAR LIMIT=20] -->
+    <string name="thank_you">Thank You!</string>
+
+    <!-- Email subject line [CHAR LIMIT=200] -->
+    <string name="order_summary_email_subject">JustJava order for <xliff:g id="emailsubject" example="Amy">%s</xliff:g></string>
+
+    <dimen name="base_margin">16dp</dimen>
+    <dimen name="button_margin">8dp</dimen>
+    <dimen name="toppings_margin">4dp</dimen>
 </resources>
